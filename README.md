@@ -1,80 +1,146 @@
-<h3>APK Link -</h3>
+# FocusZPlus
 
-[Download APK](https://drive.google.com/file/d/1OBLymIhIPcHNZkKesppG4oGUNl8hrSzc/view)
+### Control Your Screen. Control Your Life.
 
-# Getting Started
+A **digital wellbeing mobile application** designed to help users **track app usage, reduce screen addiction, and improve productivity**.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+---
 
-## Step 1: Start the Metro Server
+## Overview
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+**FocusZPlus** is inspired by Digital Wellbeing apps and provides powerful tools to:
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- Track app usage in real-time
+- Restrict and block distracting apps
+- Get smart suggestions to reduce addiction
+- Improve productivity and focus
+
+---
+
+## Problem Statement
+
+In today’s digital world, users face:
+
+- Excessive screen time
+- App addiction (social media, games, etc.)
+- Lack of awareness about usage habits
+
+---
+
+## Solution
+
+FocusZPlus helps users:
+
+- Monitor daily app usage
+- Set limits on app usage
+- Block apps completely using native Android capabilities
+- Receive intelligent suggestions to reduce screen time
+
+---
+
+## Tech Stack
+
+### Mobile App
+
+- React Native
+- Native Modules (Java - Android)
+
+### Backend
+
+- Node.js
+- Express.js
+
+### Database
+
+- MongoDB
+
+---
+
+## Key Features
+
+- App usage tracking (daily stats)
+- Screen time monitoring
+- App blocking using native Android module
+- Restriction system for selected apps
+- Smart suggestions to reduce addiction
+- Clean and user-friendly UI
+- Real-time usage updates
+
+---
+
+## How It Works
+
+1. App tracks foreground usage of installed apps
+2. Stores usage data locally / backend
+3. User sets limits or blocks apps
+4. Native module enforces restrictions
+5. App provides insights and suggestions
+
+---
+
+## APK Download
+
+https://drive.google.com/file/d/1OBLymIhIPcHNZkKesppG4oGUNl8hrSzc/view
+
+---
+
+## Screenshots
+
+### Mobile Application
+
+<p align="center">
+  <img src="https://github.com/siddhesh-bhadale/FocusZPlus/assets/82762994/32d15428-b6f5-4a4c-976b-342926635002" width="22%" />
+  <img src="https://github.com/siddhesh-bhadale/FocusZPlus/assets/82762994/f9d67157-67e7-4d86-8dca-4e1f086e42ad" width="22%" />
+  <img src="https://github.com/siddhesh-bhadale/FocusZPlus/assets/82762994/e3a1c840-e03a-4acf-8453-06400d7680f5" width="22%" />
+  <img src="https://github.com/siddhesh-bhadale/FocusZPlus/assets/82762994/27373d76-7e19-4bd2-9beb-8b821fdb8dc2" width="22%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/siddhesh-bhadale/FocusZPlus/assets/82762994/554b865b-c36c-4940-a124-9596a16f6abe" width="22%" />
+  <img src="https://github.com/siddhesh-bhadale/FocusZPlus/assets/82762994/9cf9e0eb-f46f-4850-b3d0-333295cd622f" width="22%" />
+  <img src="https://github.com/siddhesh-bhadale/FocusZPlus/assets/82762994/ef6ad669-8288-4e3f-9d95-ba4e8f8106f8" width="22%" />
+  <img src="https://github.com/siddhesh-bhadale/FocusZPlus/assets/82762994/def9988e-ccbe-4c2b-b0bb-5892117fba0b" width="22%" />
+</p>
+
+---
+
+## Getting Started
+
+### 1. Start Metro
 
 ```bash
-# using npm
 npm start
-
-# OR using Yarn
+# or
 yarn start
 ```
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
+### 2. Run App
 
 ```bash
-# using npm
 npm run android
-
-# OR using Yarn
+# or
 yarn android
 ```
 
-### For iOS
+---
 
-```bash
-# using npm
-npm run ios
+## Permissions Required
 
-# OR using Yarn
-yarn ios
-```
+- Usage Access Permission
+- Overlay Permission (for blocking apps)
+- Accessibility Service (for advanced control)
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+---
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## Future Improvements
 
-<h1>Screenshort - </h1>
-<p align="center">
-  <kbd><img src="https://github.com/SiddheshGovindBhadale/FocusZPlus/assets/82762994/32d15428-b6f5-4a4c-976b-342926635002" width=250 height=500></kbd>&nbsp;&thinsp;
-  <kbd><img src="https://github.com/SiddheshGovindBhadale/FocusZPlus/assets/82762994/f9d67157-67e7-4d86-8dca-4e1f086e42ad" width=250 height=500></kbd>&nbsp;&thinsp;
-  <kbd><img src="https://github.com/SiddheshGovindBhadale/FocusZPlus/assets/82762994/e3a1c840-e03a-4acf-8453-06400d7680f5" width=250 height=500></kbd>&nbsp;&thinsp;
-  <kbd><img src="https://github.com/SiddheshGovindBhadale/FocusZPlus/assets/82762994/27373d76-7e19-4bd2-9beb-8b821fdb8dc2" width=250 height=500></kbd>&nbsp;&thinsp;
-  <kbd><img src="https://github.com/SiddheshGovindBhadale/FocusZPlus/assets/82762994/554b865b-c36c-4940-a124-9596a16f6abe" width=250 height=500></kbd>&nbsp;&thinsp;
-  <kbd><img src="https://github.com/SiddheshGovindBhadale/FocusZPlus/assets/82762994/9cf9e0eb-f46f-4850-b3d0-333295cd622f" width=250 height=500></kbd>&nbsp;&thinsp;
-   <kbd><img src="https://github.com/SiddheshGovindBhadale/FocusZPlus/assets/82762994/ef6ad669-8288-4e3f-9d95-ba4e8f8106f8" width=250 height=500></kbd>&nbsp;&thinsp;
-  <kbd><img src="https://github.com/SiddheshGovindBhadale/FocusZPlus/assets/82762994/def9988e-ccbe-4c2b-b0bb-5892117fba0b" width=250 height=500></kbd>&nbsp;&thinsp;
-  <kbd><img src="https://github.com/SiddheshGovindBhadale/FocusZPlus/assets/82762994/a631c613-6fcb-4ac4-98b1-ca0ff8412fcf" width=250 height=500></kbd>&nbsp;&thinsp;
-</p>
+- AI-based addiction insights
+- Advanced analytics dashboard
+- Cloud sync across devices
+- Smart reminders & alerts
 
+---
 
+## 👨‍💻 Author
 
-
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+**Siddhesh Bhadale**
